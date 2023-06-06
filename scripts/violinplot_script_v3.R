@@ -11,7 +11,7 @@ data_file <- read_csv(file.choose())
 # make sure the columns are in order of how you want it presented (left to right)
 # presets: conds <- c("A_DG", "A_AG", "That_DG", "That_AG") for sent-faces
 #          or conds <- c("A", "That") for sent-only
-#conds <- c("A_DG", "A_AG", "That_DG", "That_AG")
+conds <- c("A_DG", "A_AG", "That_DG", "That_AG")
 conds <- c("Specific w/ Direct Gaze",	"Specific w/ Averted Gaze",	"Non-specific w/ Direct Gaze",	"Non-specific w/ Averted Gaze")
 # conds <- c("May_DG", "May_AG", "Might_DG", "Might_AG", "Will_DG", "Will_AG")
 
