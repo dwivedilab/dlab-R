@@ -12,7 +12,7 @@ data_file <- read_csv(file.choose())
 # presets: conds <- c("A_DG", "A_AG", "That_DG", "That_AG") for sent-faces
 #          or conds <- c("A", "That") for sent-only
 conds <- c("A_DG", "A_AG", "That_DG", "That_AG")
-conds <- c("Specific w/ Direct Gaze",	"Specific w/ Averted Gaze",	"Non-specific w/ Direct Gaze",	"Non-specific w/ Averted Gaze")
+# conds <- c("Non-specific w/ Direct Gaze",	"Non-specific w/ Averted Gaze",	"Specific w/ Direct Gaze",	"Specific w/ Averted Gaze")
 # conds <- c("May_DG", "May_AG", "Might_DG", "Might_AG", "Will_DG", "Will_AG")
 
 # extract the relevant columns from the data file and reformat it
